@@ -2,7 +2,7 @@ terraform {
   backend "remote" {
     organization = "infrastructure-pipelines-workshop"
     workspaces {
-      name = "kostas-m-k8s"
+      name = "kostas-m-consul"
     }
   }
   required_providers {
